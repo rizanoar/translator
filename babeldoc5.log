@@ -1,0 +1,112 @@
+[09/14/26 06:27:17] INFO     INFO:babeldoc.docvision.base_d base_doclayout.py:43
+                             oclayout:Loading ONNX model...                     
+                    INFO     INFO:babeldoc.docvision.doclayout:A doclayout.py:73
+                             vailable Provider:                                 
+                             CPUExecutionProvider                               
+[09/14/26 06:27:18] INFO     INFO:babeldoc.main:输出目录不存在，创建 main.py:635
+                             ：out_babeldoc                                     
+                    INFO     INFO:babeldoc.format.pdf.high_lev high_level.py:533
+                             el:start to translate:                             
+                             midden_50-54_ocr.pdf                               
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+[09/14/26 06:28:11] INFO     INFO:babeldoc.forma automatic_term_extractor.py:358
+                             t.pdf.document_il.m                                
+                             idend.automatic_ter                                
+                             m_extractor:Automat                                
+                             ic Term Extraction:                                
+                             Starting term                                      
+                             extraction for                                     
+                             document.                                          
+                    INFO     INFO:babeldoc.forma automatic_term_extractor.py:369
+                             t.pdf.document_il.m                                
+                             idend.automatic_ter                                
+                             m_extractor:Using 2                                
+                             worker threads for                                 
+                             automatic term                                     
+                             extraction.                                        
+[09/14/26 06:28:33] WARNING  WARNING:babeldoc.form il_translator_llm_only.py:854
+                             at.pdf.document_il.mi                              
+                             dend.il_translator_ll                              
+                             m_only:Error                                       
+                             Expecting property                                 
+                             name enclosed in                                   
+                             double quotes: line 5                              
+                             column 3 (char 732)                                
+                             during translation.                                
+                             try fallback                                       
+[09/14/26 06:28:36] INFO     INFO:babeldoc.format. il_translator_llm_only.py:255
+                             pdf.document_il.miden                              
+                             d.il_translator_llm_o                              
+                             nly:Translation                                    
+                             completed. Total: 19,                              
+                             Successful: 17,                                    
+                             Fallback: 2                                        
+[09/14/26 06:28:42] INFO     INFO:babeldoc.format.pdf.docume pdf_creater.py:1285
+                             nt_il.backend.pdf_creater:Font                     
+                             subsetting completed                               
+                             successfully                                       
+                    INFO     INFO:babeldoc.format.pdf.docume pdf_creater.py:1400
+                             nt_il.backend.pdf_creater:PDF                      
+                             save with clean=True completed                     
+                             successfully                                       
+                    INFO     INFO:babeldoc.format.pdf.high_lev high_level.py:411
+                             el:Peak memory usage: 1705.71 MB                   
+                    INFO     INFO:babeldoc.format.pdf.high_lev high_level.py:688
+                             el:finish translate:                               
+                             midden_50-54_ocr.pdf, cost:                        
+                             84.64205312728882 s                                
+[09/14/26 06:28:44] INFO     INFO:babeldoc.format.pdf.high_lev high_level.py:754
+                             el:No TOC found in the original                    
+                             PDF, skipping migration.                           
+                    INFO     INFO:babeldoc.main:Translation results: main.py:763
+                                     Original PDF:                              
+                             midden_50-54_ocr.pdf                               
+                                     Total time: 84.64 seconds                  
+                                     Monolingual PDF:                           
+                             out_babeldoc/midden_50-54_ocr.no_waterm            
+                             ark.id.mono.pdf                                    
+                                     Peak memory usage: 1705.7109375            
+                             MB                                                 
+                                     Total valid character count:               
+                             14859                                              
+                                     Total valid text token count               
+                             (gpt-4o): 3800                                     
+translate                                              ━━━━━ 100/… 0:01:… 0:00:…
+Parse PDF and Create Intermediate Representation (1/1) ━━━━━ 5/5   0:00:… 0:00:…
+Parse Page Layout (1/1)                                ━━━━━ 10/10 0:00:… 0:00:…
+Parse Paragraphs (1/1)                                 ━━━━━ 5/5   0:00:… 0:00:…
+Parse Formulas and Styles (1/1)                        ━━━━━ 5/5   0:00:… 0:00:…
+Automatic Term Extraction (1/1)                        ━━━━━ 20/20 0:00:… 0:00:…
+Translate Paragraphs (1/1)                             ━━━━━ 20/20 0:00:… 0:00:…
+Typesetting (1/1)                                      ━━━━━ 10/10 0:00:… 0:00:…
+Add Fonts (1/1)                                        ━━━━━ 40/40 0:00:… 0:00:…
+Generate drawing instructions (1/1)                    ━━━━━ 5/5   0:00:… 0:00:…
+Subset font (1/1)                                      ━━━━━ 1/1   0:00:… 0:00:…
+Save PDF (1/1)                                         ━━━━━ 2/2   0:00:… 0:00:…translate                                              ━━━━━ 100/… 0:01:… 0:00:…
+Parse PDF and Create Intermediate Representation (1/1) ━━━━━ 5/5   0:00:… 0:00:…
+Parse Page Layout (1/1)                                ━━━━━ 10/10 0:00:… 0:00:…
+Parse Paragraphs (1/1)                                 ━━━━━ 5/5   0:00:… 0:00:…
+Parse Formulas and Styles (1/1)                        ━━━━━ 5/5   0:00:… 0:00:…
+Automatic Term Extraction (1/1)                        ━━━━━ 20/20 0:00:… 0:00:…
+Translate Paragraphs (1/1)                             ━━━━━ 20/20 0:00:… 0:00:…
+Typesetting (1/1)                                      ━━━━━ 10/10 0:00:… 0:00:…
+Add Fonts (1/1)                                        ━━━━━ 40/40 0:00:… 0:00:…
+Generate drawing instructions (1/1)                    ━━━━━ 5/5   0:00:… 0:00:…
+Subset font (1/1)                                      ━━━━━ 1/1   0:00:… 0:00:…
+Save PDF (1/1)                                         ━━━━━ 2/2   0:00:… 0:00:…
+                    INFO     INFO:babeldoc.format.pdf. translation_config.py:472
+                             translation_config:cleanu                          
+                             p temp files:                                      
+                             /tmp/tmp40n4kmgi                                   
+                    INFO     INFO:babeldoc.main:Total tokens: 19410  main.py:772
+                    INFO     INFO:babeldoc.main:Prompt tokens: 16259 main.py:773
+                    INFO     INFO:babeldoc.main:Completion tokens:   main.py:774
+                             3151                                               
+                    INFO     INFO:babeldoc.main:Cache hit prompt     main.py:775
+                             tokens: 0                                          
+                    INFO     INFO:babeldoc.main:Term extraction      main.py:778
+                             tokens: total=0 prompt=0 completion=0              
+                             cache_hit_prompt=0                                 
+                    INFO     INFO:babeldoc.format.pdf.high_lev high_level.py:375
+                             el:Waiting for translation to                      
+                             finish...                                          

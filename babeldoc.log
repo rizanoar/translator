@@ -1,0 +1,1515 @@
+[09/14/26 05:49:58] INFO     INFO:babeldoc.docvision.base_d base_doclayout.py:43
+                             oclayout:Loading ONNX model...                     
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    INFO     INFO:babeldoc.docvision.doclayout:A doclayout.py:73
+                             vailable Provider:                                 
+                             CPUExecutionProvider                               
+[09/14/26 05:49:59] DEBUG    DEBUG:babeldoc.progress_moni progress_monitor.py:49
+                             tor:report_interval: 0.1                           
+                    INFO     INFO:babeldoc.format.pdf.high_lev high_level.py:533
+                             el:start to translate:                             
+                             midden_50-54_ocr.pdf                               
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'stage_summary', 'stages': [{'name':               
+                             'Parse PDF and Create Intermediate                 
+                             Representation', 'percent':                        
+                             0.11068433017167045}, {'name': 'Parse              
+                             Page Layout', 'percent':                           
+                             0.10997883514932978}, {'name': 'Parse              
+                             Paragraphs', 'percent':                            
+                             0.04907109822058478}, {'name': 'Parse              
+                             Formulas and Styles', 'percent':                   
+                             0.013012463745394685}, {'name':                    
+                             'Automatic Term Extraction', 'percent':            
+                             0.23516500744689192}, {'name':                     
+                             'Translate Paragraphs', 'percent':                 
+                             0.3681116249902015}, {'name':                      
+                             'Typesetting', 'percent':                          
+                             0.03692090616916203}, {'name': 'Add                
+                             Fonts', 'percent':                                 
+                             0.004781688484753469}, {'name':                    
+                             'Generate drawing instructions',                   
+                             'percent': 0.015364113819863605},                  
+                             {'name': 'Subset font', 'percent':                 
+                             0.007211726895038019}, {'name': 'Save              
+                             PDF', 'percent': 0.04969820490710982}],            
+                             'part_index': 0, 'total_parts': 1}                 
+                    DEBUG    DEBUG:babeldoc.format.pdf.high_le high_level.py:401
+                             vel:Memory monitoring started                      
+                    DEBUG    DEBUG:babeldoc.format.pdf.high_le high_level.py:850
+                             vel:debug mode, save decompressed                  
+                             input pdf                                          
+[09/14/26 05:50:00] DEBUG    DEBUG:babeldoc.format.pdf.high_le high_level.py:901
+                             vel:start parse il from                            
+                             /home/hermes/.cache/babeldoc/work                  
+                             ing/midden_50-54_ocr/input.pdf                     
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+[09/14/26 05:50:01] DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+[09/14/26 05:50:02] DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_start', 'stage': 'Parse PDF              
+                             and Create Intermediate                            
+                             Representation', 'stage_progress': 0.0,            
+                             'stage_current': 0, 'stage_total': 5,              
+                             'overall_progress': 0.0, 'part_index':             
+                             1, 'total_parts': 1}                               
+                    DEBUG    DEBUG:babeldoc.format.pdf. il_creater_active.py:675
+                             document_il.frontend.il_cr                         
+                             eater_active_support:handl                         
+                             e font                                             
+                             RDEOGN+GlyphLessFont in 0                          
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_update', 'stage': 'Parse PDF             
+                             and Create Intermediate                            
+                             Representation', 'stage_progress':                 
+                             20.0, 'stage_current': 1,                          
+                             'stage_total': 5, 'overall_progress':              
+                             2.213686603433409, 'part_index': 1,                
+                             'total_parts': 1}                                  
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_update', 'stage': 'Parse PDF             
+                             and Create Intermediate                            
+                             Representation', 'stage_progress':                 
+                             40.0, 'stage_current': 2,                          
+                             'stage_total': 5, 'overall_progress':              
+                             4.427373206866818, 'part_index': 1,                
+                             'total_parts': 1}                                  
+[09/14/26 05:50:03] DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_update', 'stage': 'Parse PDF             
+                             and Create Intermediate                            
+                             Representation', 'stage_progress':                 
+                             60.0, 'stage_current': 3,                          
+                             'stage_total': 5, 'overall_progress':              
+                             6.641059810300227, 'part_index': 1,                
+                             'total_parts': 1}                                  
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_update', 'stage': 'Parse PDF             
+                             and Create Intermediate                            
+                             Representation', 'stage_progress':                 
+                             80.0, 'stage_current': 4,                          
+                             'stage_total': 5, 'overall_progress':              
+                             8.854746413733636, 'part_index': 1,                
+                             'total_parts': 1}                                  
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_update', 'stage': 'Parse PDF             
+                             and Create Intermediate                            
+                             Representation', 'stage_progress':                 
+                             100.0, 'stage_current': 5,                         
+                             'stage_total': 5, 'overall_progress':              
+                             11.068433017167045, 'part_index': 1,               
+                             'total_parts': 1}                                  
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_end', 'stage': 'Parse PDF and            
+                             Create Intermediate Representation',               
+                             'stage_progress': 100.0,                           
+                             'stage_current': 5, 'stage_total': 5,              
+                             'overall_progress': 11.068433017167045,            
+                             'part_index': 1, 'total_parts': 1}                 
+                    DEBUG    DEBUG:babeldoc.format.pdf.high_le high_level.py:911
+                             vel:finish parse il from                           
+                             /home/hermes/.cache/babeldoc/work                  
+                             ing/midden_50-54_ocr/input.pdf                     
+                    DEBUG    DEBUG:babeldoc.format.pdf.high_le high_level.py:912
+                             vel:finish create il from                          
+                             /home/hermes/.cache/babeldoc/work                  
+                             ing/midden_50-54_ocr/input.pdf                     
+[09/14/26 05:50:04] DEBUG    DEBUG:babeldoc.format.pdf.high_le high_level.py:939
+                             vel:skipping scanned file                          
+                             detection                                          
+                    DEBUG    DEBUG:babeldoc.format.pdf.high_le high_level.py:953
+                             vel:start generating layouts                       
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_start', 'stage': 'Parse Page             
+                             Layout', 'stage_progress': 0.0,                    
+                             'stage_current': 0, 'stage_total': 10,             
+                             'overall_progress': 11.068433017167045,            
+                             'part_index': 1, 'total_parts': 1}                 
+[09/14/26 05:50:11] DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_update', 'stage': 'Parse Page            
+                             Layout', 'stage_progress': 10.0,                   
+                             'stage_current': 1, 'stage_total': 10,             
+                             'overall_progress': 12.168221368660344,            
+                             'part_index': 1, 'total_parts': 1}                 
+[09/14/26 05:50:21] DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_update', 'stage': 'Parse Page            
+                             Layout', 'stage_progress': 20.0,                   
+                             'stage_current': 2, 'stage_total': 10,             
+                             'overall_progress': 13.26800972015364,             
+                             'part_index': 1, 'total_parts': 1}                 
+[09/14/26 05:50:31] DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_update', 'stage': 'Parse Page            
+                             Layout', 'stage_progress': 30.0,                   
+                             'stage_current': 3, 'stage_total': 10,             
+                             'overall_progress': 14.36779807164694,             
+                             'part_index': 1, 'total_parts': 1}                 
+[09/14/26 05:50:39] DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_update', 'stage': 'Parse Page            
+                             Layout', 'stage_progress': 40.0,                   
+                             'stage_current': 4, 'stage_total': 10,             
+                             'overall_progress': 15.467586423140236,            
+                             'part_index': 1, 'total_parts': 1}                 
+[09/14/26 05:50:48] DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_update', 'stage': 'Parse Page            
+                             Layout', 'stage_progress': 50.0,                   
+                             'stage_current': 5, 'stage_total': 10,             
+                             'overall_progress': 16.567374774633535,            
+                             'part_index': 1, 'total_parts': 1}                 
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_update', 'stage': 'Parse Page            
+                             Layout', 'stage_progress': 60.0,                   
+                             'stage_current': 6, 'stage_total': 10,             
+                             'overall_progress': 17.667163126126834,            
+                             'part_index': 1, 'total_parts': 1}                 
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_update', 'stage': 'Parse Page            
+                             Layout', 'stage_progress': 80.0,                   
+                             'stage_current': 8, 'stage_total': 10,             
+                             'overall_progress': 19.866739829113428,            
+                             'part_index': 1, 'total_parts': 1}                 
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_end', 'stage': 'Parse Page               
+                             Layout', 'stage_progress': 100.0,                  
+                             'stage_current': 10, 'stage_total': 10,            
+                             'overall_progress': 22.066316532100025,            
+                             'part_index': 1, 'total_parts': 1}                 
+                    DEBUG    DEBUG:babeldoc.format.pdf.high_le high_level.py:955
+                             vel:finish generating layouts                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+[09/14/26 05:50:49] DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+[09/14/26 05:50:50] DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_start', 'stage': 'Parse                  
+                             Paragraphs', 'stage_progress': 0.0,                
+                             'stage_current': 0, 'stage_total': 5,              
+                             'overall_progress': 22.066316532100025,            
+                             'part_index': 1, 'total_parts': 1}                 
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_update', 'stage': 'Parse                 
+                             Paragraphs', 'stage_progress': 20.0,               
+                             'stage_current': 1, 'stage_total': 5,              
+                             'overall_progress': 23.04773849651172,             
+                             'part_index': 1, 'total_parts': 1}                 
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_update', 'stage': 'Parse                 
+                             Paragraphs', 'stage_progress': 40.0,               
+                             'stage_current': 2, 'stage_total': 5,              
+                             'overall_progress': 24.029160460923418,            
+                             'part_index': 1, 'total_parts': 1}                 
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_update', 'stage': 'Parse                 
+                             Paragraphs', 'stage_progress': 60.0,               
+                             'stage_current': 3, 'stage_total': 5,              
+                             'overall_progress': 25.010582425335112,            
+                             'part_index': 1, 'total_parts': 1}                 
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_update', 'stage': 'Parse                 
+                             Paragraphs', 'stage_progress': 80.0,               
+                             'stage_current': 4, 'stage_total': 5,              
+                             'overall_progress': 25.992004389746807,            
+                             'part_index': 1, 'total_parts': 1}                 
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_update', 'stage': 'Parse                 
+                             Paragraphs', 'stage_progress': 100.0,              
+                             'stage_current': 5, 'stage_total': 5,              
+                             'overall_progress': 26.9734263541585,              
+                             'part_index': 1, 'total_parts': 1}                 
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_end', 'stage': 'Parse                    
+                             Paragraphs', 'stage_progress': 100.0,              
+                             'stage_current': 5, 'stage_total': 5,              
+                             'overall_progress': 26.9734263541585,              
+                             'part_index': 1, 'total_parts': 1}                 
+                    DEBUG    DEBUG:babeldoc.format.pdf.high_le high_level.py:972
+                             vel:finish paragraph finder from                   
+                             /home/hermes/.cache/babeldoc/work                  
+                             ing/midden_50-54_ocr/input.pdf                     
+[09/14/26 05:50:51] DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+[09/14/26 05:50:52] DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+[09/14/26 05:50:53] DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_start', 'stage': 'Parse                  
+                             Formulas and Styles', 'stage_progress':            
+                             0.0, 'stage_current': 0, 'stage_total':            
+                             5, 'overall_progress':                             
+                             26.9734263541585, 'part_index': 1,                 
+                             'total_parts': 1}                                  
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_update', 'stage': 'Parse                 
+                             Formulas and Styles', 'stage_progress':            
+                             20.0, 'stage_current': 1,                          
+                             'stage_total': 5, 'overall_progress':              
+                             27.233675629066393, 'part_index': 1,               
+                             'total_parts': 1}                                  
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_update', 'stage': 'Parse                 
+                             Formulas and Styles', 'stage_progress':            
+                             100.0, 'stage_current': 5,                         
+                             'stage_total': 5, 'overall_progress':              
+                             28.27467272869797, 'part_index': 1,                
+                             'total_parts': 1}                                  
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_end', 'stage': 'Parse                    
+                             Formulas and Styles', 'stage_progress':            
+                             100.0, 'stage_current': 5,                         
+                             'stage_total': 5, 'overall_progress':              
+                             28.27467272869797, 'part_index': 1,                
+                             'total_parts': 1}                                  
+                    DEBUG    DEBUG:babeldoc.format.pdf.high_le high_level.py:979
+                             vel:finish styles and formulas                     
+                             from                                               
+                             /home/hermes/.cache/babeldoc/work                  
+                             ing/midden_50-54_ocr/input.pdf                     
+[09/14/26 05:50:54] INFO     INFO:babeldoc.forma automatic_term_extractor.py:358
+                             t.pdf.document_il.m                                
+                             idend.automatic_ter                                
+                             m_extractor:Automat                                
+                             ic Term Extraction:                                
+                             Starting term                                      
+                             extraction for                                     
+                             document.                                          
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_start', 'stage': 'Automatic              
+                             Term Extraction', 'stage_progress':                
+                             0.0, 'stage_current': 0, 'stage_total':            
+                             237, 'overall_progress':                           
+                             28.27467272869797, 'part_index': 1,                
+                             'total_parts': 1}                                  
+                    INFO     INFO:babeldoc.forma automatic_term_extractor.py:369
+                             t.pdf.document_il.m                                
+                             idend.automatic_ter                                
+                             m_extractor:Using 2                                
+                             worker threads for                                 
+                             automatic term                                     
+                             extraction.                                        
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_update', 'stage': 'Automatic             
+                             Term Extraction', 'stage_progress':                
+                             0.4219409282700422, 'stage_current': 1,            
+                             'stage_total': 237, 'overall_progress':            
+                             28.373898470236742, 'part_index': 1,               
+                             'total_parts': 1}                                  
+                    WARNING  WARNING:babeldoc.fo automatic_term_extractor.py:352
+                             rmat.pdf.document_i                                
+                             l.midend.automatic_                                
+                             term_extractor:Erro                                
+                             r during automatic                                 
+                             terms extract:                                     
+                             Expecting property                                 
+                             name enclosed in                                   
+                             double quotes: line                                
+                             15 column 23 (char                                 
+                             672)                                               
+                    DEBUG    DEBUG:babeldoc priority_thread_pool_executor.py:230
+                             .utils.priorit                                     
+                             y_thread_pool_                                     
+                             executor:Shutt                                     
+                             ing down                                           
+                             executor                                           
+                             ThreadPoolExec                                     
+                             utor-1                                             
+                    DEBUG    DEBUG:babeldoc priority_thread_pool_executor.py:232
+                             .utils.priorit                                     
+                             y_thread_pool_                                     
+                             executor:Waiti                                     
+                             ng for all                                         
+                             tasks done                                         
+                             ThreadPoolExec                                     
+                             utor-1                                             
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_update', 'stage': 'Automatic             
+                             Term Extraction', 'stage_progress':                
+                             100.0, 'stage_current': 237,                       
+                             'stage_total': 237, 'overall_progress':            
+                             51.79117347338716, 'part_index': 1,                
+                             'total_parts': 1}                                  
+                    DEBUG    DEBUG:babeldoc priority_thread_pool_executor.py:236
+                             .utils.priorit                                     
+                             y_thread_pool_                                     
+                             executor:All                                       
+                             tasks done                                         
+                             ThreadPoolExec                                     
+                             utor-1                                             
+                    DEBUG    DEBUG:babeldoc priority_thread_pool_executor.py:255
+                             .utils.priorit                                     
+                             y_thread_pool_                                     
+                             executor:Waiti                                     
+                             ng for all                                         
+                             thread done                                        
+                             ThreadPoolExec                                     
+                             utor-1                                             
+                    DEBUG    DEBUG:babeldoc priority_thread_pool_executor.py:261
+                             .utils.priorit                                     
+                             y_thread_pool_                                     
+                             executor:shutd                                     
+                             own finish                                         
+                             ThreadPoolExec                                     
+                             utor-1                                             
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_end', 'stage': 'Automatic                
+                             Term Extraction', 'stage_progress':                
+                             100.0, 'stage_current': 237,                       
+                             'stage_total': 237, 'overall_progress':            
+                             51.79117347338716, 'part_index': 1,                
+                             'total_parts': 1}                                  
+                    DEBUG    DEBUG:babeldoc.glossary:start build  glossary.py:69
+                             regex for glossary                                 
+                             auto_extracted_glossary with 67                    
+                             entries                                            
+                    DEBUG    DEBUG:babeldoc.glossary:building     glossary.py:97
+                             hs_db chunk 1 / 1                                  
+                    DEBUG    DEBUG:babeldoc.glossary:finished    glossary.py:114
+                             building regex for glossary                        
+                             auto_extracted_glossary in 0.03                    
+                             seconds                                            
+                    DEBUG    DEBUG:babeldoc.glossary:build hs    glossary.py:117
+                             database for glossary                              
+                             auto_extracted_glossary with 67                    
+                             entries, hs_info: b'Version: 5.4.12                
+                             Features:  Mode: BLOCK'                            
+                    DEBUG    DEBUG:babeldoc.form automatic_term_extractor.py:396
+                             at.pdf.document_il.                                
+                             midend.automatic_te                                
+                             rm_extractor:save                                  
+                             translate tracking                                 
+                             to                                                 
+                             /home/hermes/.cache                                
+                             /babeldoc/working/m                                
+                             idden_50-54_ocr/ter                                
+                             m_extractor_trackin                                
+                             g.json                                             
+                    DEBUG    DEBUG:babeldoc.form automatic_term_extractor.py:403
+                             at.pdf.document_il.                                
+                             midend.automatic_te                                
+                             rm_extractor:save                                  
+                             term frequency to                                  
+                             /home/hermes/.cache                                
+                             /babeldoc/working/m                                
+                             idden_50-54_ocr/ter                                
+                             m_extractor_freq.js                                
+                             on                                                 
+                    DEBUG    DEBUG:babeldoc.form automatic_term_extractor.py:415
+                             at.pdf.document_il.                                
+                             midend.automatic_te                                
+                             rm_extractor:save                                  
+                             auto extracted                                     
+                             glossary to                                        
+                             /home/hermes/.cache                                
+                             /babeldoc/working/m                                
+                             idden_50-54_ocr/aut                                
+                             o_extractor_glossar                                
+                             y.csv                                              
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+[09/14/26 05:50:55] DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+[09/14/26 05:50:56] DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+[09/14/26 05:50:57] DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+[09/14/26 05:50:58] DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+[09/14/26 05:50:59] DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+[09/14/26 05:51:00] DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:asyncio:Using selector: selector_events.py:64
+                             EpollSelector                                      
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_start', 'stage': 'Translate              
+                             Paragraphs', 'stage_progress': 0.0,                
+                             'stage_current': 0, 'stage_total': 20,             
+                             'overall_progress': 51.79117347338716,             
+                             'part_index': 1, 'total_parts': 1}                 
+                    DEBUG    DEBUG:babeldoc.main:{'type':            main.py:757
+                             'progress_update', 'stage': 'Translate             
+                             Paragraphs', 'stage_progress': 5.0,                
+                             'stage_current': 1, 'stage_total': 20,             
+                             'overall_progress': 53.63173159833817,             
+                             'part_index': 1, 'total_parts': 1}                 
+                    DEBUG    DEBUG:babeldoc priority_thread_pool_executor.py:230
+                             .utils.priorit                                     
+                             y_thread_pool_                                     
+                             executor:Shutt                                     
+                             ing down                                           
+                             executor                                           
+                             ThreadPoolExec                                     
+                             utor-3                                             
+                    DEBUG    DEBUG:babeldoc priority_thread_pool_executor.py:232
+                             .utils.priorit                                     
+                             y_thread_pool_                                     
+                             executor:Waiti                                     
+                             ng for all                                         
+                             tasks done                                         
+                             ThreadPoolExec                                     
+                             utor-3                                             
+[09/14/26 05:52:53] WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 1 seconds as it raised                         
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check your plan                      
+                             and billing details. For more                      
+                             information on this error, head                    
+                             to:                                                
+                             https://ai.google.dev/gemini-api                   
+                             /docs/rate-limits. To monitor                      
+                             your current usage, head to:                       
+                             https://ai.dev/rate-limit. \\n*                    
+                             Quota exceeded for metric:                         
+                             generativelanguage.googleapis.co                   
+                             m/generate_content_free_tier_req                   
+                             uests, limit: 20, model:                           
+                             gemini-3.7-flash\\nPlease retry                    
+                             in 6.151022436s.",\n                               
+                             "status":                                          
+                             "RESOURCE_EXHAUSTED",\n                            
+                             "details": [\n      {\n                            
+                             "@type":                                           
+                             "type.googleapis.com/google.rpc.                   
+                             Help",\n        "links": [\n                       
+                             {\n            "description":                      
+                             "Learn more about Gemini API                       
+                             quotas",\n            "url":                       
+                             "https://ai.google.dev/gemini-ap                   
+                             i/docs/rate-limits"\n                              
+                             }\n        ]\n      },\n                           
+                             {\n        "@type":                                
+                             "type.googleapis.com/google.rpc.                   
+                             QuotaFailure",\n                                   
+                             "violations": [\n          {\n                     
+                             "quotaMetric":                                     
+                             "generativelanguage.googleapis.c                   
+                             om/generate_content_free_tier_re                   
+                             quests",\n            "quotaId":                   
+                             "GenerateRequestsPerDayPerProjec                   
+                             tPerModel-FreeTier",\n                             
+                               "quotaDimensions": {\n                           
+                             "location": "global",\n                            
+                             "model": "gemini-3.7-flash"\n                      
+                             },\n            "quotaValue":                      
+                             "20"\n          }\n        ]\n                     
+                             },\n      {\n        "@type":                      
+                             "type.googleapis.com/google.rpc.                   
+                             RetryInfo",\n                                      
+                             "retryDelay": "6s"\n      }\n                      
+                             ]\n  }\n}\n (reset after 3m                        
+                             16s)'}}.                                           
+                    WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 1 seconds as it raised                         
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check your plan                      
+                             and billing details. For more                      
+                             information on this error, head                    
+                             to:                                                
+                             https://ai.google.dev/gemini-api                   
+                             /docs/rate-limits. To monitor                      
+                             your current usage, head to:                       
+                             https://ai.dev/rate-limit. \\n*                    
+                             Quota exceeded for metric:                         
+                             generativelanguage.googleapis.co                   
+                             m/generate_content_free_tier_req                   
+                             uests, limit: 20, model:                           
+                             gemini-3.7-flash\\nPlease retry                    
+                             in 6.151209108s.",\n                               
+                             "status":                                          
+                             "RESOURCE_EXHAUSTED",\n                            
+                             "details": [\n      {\n                            
+                             "@type":                                           
+                             "type.googleapis.com/google.rpc.                   
+                             Help",\n        "links": [\n                       
+                             {\n            "description":                      
+                             "Learn more about Gemini API                       
+                             quotas",\n            "url":                       
+                             "https://ai.google.dev/gemini-ap                   
+                             i/docs/rate-limits"\n                              
+                             }\n        ]\n      },\n                           
+                             {\n        "@type":                                
+                             "type.googleapis.com/google.rpc.                   
+                             QuotaFailure",\n                                   
+                             "violations": [\n          {\n                     
+                             "quotaMetric":                                     
+                             "generativelanguage.googleapis.c                   
+                             om/generate_content_free_tier_re                   
+                             quests",\n            "quotaId":                   
+                             "GenerateRequestsPerDayPerProjec                   
+                             tPerModel-FreeTier",\n                             
+                               "quotaDimensions": {\n                           
+                             "location": "global",\n                            
+                             "model": "gemini-3.7-flash"\n                      
+                             },\n            "quotaValue":                      
+                             "20"\n          }\n        ]\n                     
+                             },\n      {\n        "@type":                      
+                             "type.googleapis.com/google.rpc.                   
+                             RetryInfo",\n                                      
+                             "retryDelay": "6s"\n      }\n                      
+                             ]\n  }\n}\n (reset after 3m                        
+                             16s)'}}.                                           
+[09/14/26 05:52:54] WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 2 seconds as it raised                         
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             3m 15s)'}}.                                        
+                    WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 2 seconds as it raised                         
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             3m 15s)'}}.                                        
+[09/14/26 05:52:56] WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 4 seconds as it raised                         
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             3m 13s)'}}.                                        
+                    WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 4 seconds as it raised                         
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             3m 13s)'}}.                                        
+[09/14/26 05:53:00] WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 8 seconds as it raised                         
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             3m 9s)'}}.                                         
+                    WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 8 seconds as it raised                         
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             3m 9s)'}}.                                         
+[09/14/26 05:53:08] WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             3m 1s)'}}.                                         
+                    WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             3m 1s)'}}.                                         
+[09/14/26 05:53:23] WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             2m 46s)'}}.                                        
+                    WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             2m 46s)'}}.                                        
+[09/14/26 05:53:38] WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             2m 31s)'}}.                                        
+[09/14/26 05:53:39] WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             2m 31s)'}}.                                        
+[09/14/26 05:53:54] WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             2m 16s)'}}.                                        
+                    WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             2m 16s)'}}.                                        
+[09/14/26 05:54:09] WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             2m 1s)'}}.                                         
+                    WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             2m 1s)'}}.                                         
+[09/14/26 05:57:55] WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check your plan                      
+                             and billing details. For more                      
+                             information on this error, head                    
+                             to:                                                
+                             https://ai.google.dev/gemini-api                   
+                             /docs/rate-limits. To monitor                      
+                             your current usage, head to:                       
+                             https://ai.dev/rate-limit. \\n*                    
+                             Quota exceeded for metric:                         
+                             generativelanguage.googleapis.co                   
+                             m/generate_content_free_tier_req                   
+                             uests, limit: 20, model:                           
+                             gemini-3.7-flash\\nPlease retry                    
+                             in 4.771145309s.",\n                               
+                             "status":                                          
+                             "RESOURCE_EXHAUSTED",\n                            
+                             "details": [\n      {\n                            
+                             "@type":                                           
+                             "type.googleapis.com/google.rpc.                   
+                             Help",\n        "links": [\n                       
+                             {\n            "description":                      
+                             "Learn more about Gemini API                       
+                             quotas",\n            "url":                       
+                             "https://ai.google.dev/gemini-ap                   
+                             i/docs/rate-limits"\n                              
+                             }\n        ]\n      },\n                           
+                             {\n        "@type":                                
+                             "type.googleapis.com/google.rpc.                   
+                             QuotaFailure",\n                                   
+                             "violations": [\n          {\n                     
+                             "quotaMetric":                                     
+                             "generativelanguage.googleapis.c                   
+                             om/generate_content_free_tier_re                   
+                             quests",\n            "quotaId":                   
+                             "GenerateRequestsPerDayPerProjec                   
+                             tPerModel-FreeTier",\n                             
+                               "quotaDimensions": {\n                           
+                             "location": "global",\n                            
+                             "model": "gemini-3.7-flash"\n                      
+                             },\n            "quotaValue":                      
+                             "20"\n          }\n        ]\n                     
+                             },\n      {\n        "@type":                      
+                             "type.googleapis.com/google.rpc.                   
+                             RetryInfo",\n                                      
+                             "retryDelay": "4s"\n      }\n                      
+                             ]\n  }\n}\n (reset after 3m                        
+                             16s)'}}.                                           
+                    WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check your plan                      
+                             and billing details. For more                      
+                             information on this error, head                    
+                             to:                                                
+                             https://ai.google.dev/gemini-api                   
+                             /docs/rate-limits. To monitor                      
+                             your current usage, head to:                       
+                             https://ai.dev/rate-limit. \\n*                    
+                             Quota exceeded for metric:                         
+                             generativelanguage.googleapis.co                   
+                             m/generate_content_free_tier_req                   
+                             uests, limit: 20, model:                           
+                             gemini-3.7-flash\\nPlease retry                    
+                             in 4.771372582s.",\n                               
+                             "status":                                          
+                             "RESOURCE_EXHAUSTED",\n                            
+                             "details": [\n      {\n                            
+                             "@type":                                           
+                             "type.googleapis.com/google.rpc.                   
+                             Help",\n        "links": [\n                       
+                             {\n            "description":                      
+                             "Learn more about Gemini API                       
+                             quotas",\n            "url":                       
+                             "https://ai.google.dev/gemini-ap                   
+                             i/docs/rate-limits"\n                              
+                             }\n        ]\n      },\n                           
+                             {\n        "@type":                                
+                             "type.googleapis.com/google.rpc.                   
+                             QuotaFailure",\n                                   
+                             "violations": [\n          {\n                     
+                             "quotaMetric":                                     
+                             "generativelanguage.googleapis.c                   
+                             om/generate_content_free_tier_re                   
+                             quests",\n            "quotaId":                   
+                             "GenerateRequestsPerDayPerProjec                   
+                             tPerModel-FreeTier",\n                             
+                               "quotaDimensions": {\n                           
+                             "model": "gemini-3.7-flash",\n                     
+                             "location": "global"\n                             
+                             },\n            "quotaValue":                      
+                             "20"\n          }\n        ]\n                     
+                             },\n      {\n        "@type":                      
+                             "type.googleapis.com/google.rpc.                   
+                             RetryInfo",\n                                      
+                             "retryDelay": "4s"\n      }\n                      
+                             ]\n  }\n}\n (reset after 3m                        
+                             16s)'}}.                                           
+[09/14/26 05:58:10] WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             3m 1s)'}}.                                         
+                    WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             3m 1s)'}}.                                         
+[09/14/26 05:58:25] WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             2m 46s)'}}.                                        
+                    WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             2m 46s)'}}.                                        
+[09/14/26 05:58:40] WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             2m 31s)'}}.                                        
+                    WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             2m 31s)'}}.                                        
+[09/14/26 05:58:55] WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             2m 16s)'}}.                                        
+                    WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             2m 16s)'}}.                                        
+[09/14/26 05:59:10] WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             2m 1s)'}}.                                         
+                    WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             2m 1s)'}}.                                         
+[09/14/26 06:02:56] WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check your plan                      
+                             and billing details. For more                      
+                             information on this error, head                    
+                             to:                                                
+                             https://ai.google.dev/gemini-api                   
+                             /docs/rate-limits. To monitor                      
+                             your current usage, head to:                       
+                             https://ai.dev/rate-limit. \\n*                    
+                             Quota exceeded for metric:                         
+                             generativelanguage.googleapis.co                   
+                             m/generate_content_free_tier_req                   
+                             uests, limit: 20, model:                           
+                             gemini-3.7-flash\\nPlease retry                    
+                             in 3.47786419s.",\n    "status":                   
+                             "RESOURCE_EXHAUSTED",\n                            
+                             "details": [\n      {\n                            
+                             "@type":                                           
+                             "type.googleapis.com/google.rpc.                   
+                             Help",\n        "links": [\n                       
+                             {\n            "description":                      
+                             "Learn more about Gemini API                       
+                             quotas",\n            "url":                       
+                             "https://ai.google.dev/gemini-ap                   
+                             i/docs/rate-limits"\n                              
+                             }\n        ]\n      },\n                           
+                             {\n        "@type":                                
+                             "type.googleapis.com/google.rpc.                   
+                             QuotaFailure",\n                                   
+                             "violations": [\n          {\n                     
+                             "quotaMetric":                                     
+                             "generativelanguage.googleapis.c                   
+                             om/generate_content_free_tier_re                   
+                             quests",\n            "quotaId":                   
+                             "GenerateRequestsPerDayPerProjec                   
+                             tPerModel-FreeTier",\n                             
+                               "quotaDimensions": {\n                           
+                             "model": "gemini-3.7-flash",\n                     
+                             "location": "global"\n                             
+                             },\n            "quotaValue":                      
+                             "20"\n          }\n        ]\n                     
+                             },\n      {\n        "@type":                      
+                             "type.googleapis.com/google.rpc.                   
+                             RetryInfo",\n                                      
+                             "retryDelay": "3s"\n      }\n                      
+                             ]\n  }\n}\n (reset after 2s)'}}.                   
+                    WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check your plan                      
+                             and billing details. For more                      
+                             information on this error, head                    
+                             to:                                                
+                             https://ai.google.dev/gemini-api                   
+                             /docs/rate-limits. To monitor                      
+                             your current usage, head to:                       
+                             https://ai.dev/rate-limit. \\n*                    
+                             Quota exceeded for metric:                         
+                             generativelanguage.googleapis.co                   
+                             m/generate_content_free_tier_req                   
+                             uests, limit: 20, model:                           
+                             gemini-3.7-flash\\nPlease retry                    
+                             in 3.477975438s.",\n                               
+                             "status":                                          
+                             "RESOURCE_EXHAUSTED",\n                            
+                             "details": [\n      {\n                            
+                             "@type":                                           
+                             "type.googleapis.com/google.rpc.                   
+                             Help",\n        "links": [\n                       
+                             {\n            "description":                      
+                             "Learn more about Gemini API                       
+                             quotas",\n            "url":                       
+                             "https://ai.google.dev/gemini-ap                   
+                             i/docs/rate-limits"\n                              
+                             }\n        ]\n      },\n                           
+                             {\n        "@type":                                
+                             "type.googleapis.com/google.rpc.                   
+                             QuotaFailure",\n                                   
+                             "violations": [\n          {\n                     
+                             "quotaMetric":                                     
+                             "generativelanguage.googleapis.c                   
+                             om/generate_content_free_tier_re                   
+                             quests",\n            "quotaId":                   
+                             "GenerateRequestsPerDayPerProjec                   
+                             tPerModel-FreeTier",\n                             
+                               "quotaDimensions": {\n                           
+                             "location": "global",\n                            
+                             "model": "gemini-3.7-flash"\n                      
+                             },\n            "quotaValue":                      
+                             "20"\n          }\n        ]\n                     
+                             },\n      {\n        "@type":                      
+                             "type.googleapis.com/google.rpc.                   
+                             RetryInfo",\n                                      
+                             "retryDelay": "3s"\n      }\n                      
+                             ]\n  }\n}\n (reset after 4s)'}}.                   
+[09/14/26 06:03:28] WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check your plan                      
+                             and billing details. For more                      
+                             information on this error, head                    
+                             to:                                                
+                             https://ai.google.dev/gemini-api                   
+                             /docs/rate-limits. To monitor                      
+                             your current usage, head to:                       
+                             https://ai.dev/rate-limit. \\n*                    
+                             Quota exceeded for metric:                         
+                             generativelanguage.googleapis.co                   
+                             m/generate_content_free_tier_req                   
+                             uests, limit: 20, model:                           
+                             gemini-3.7-flash\\nPlease retry                    
+                             in 31.647309219s.",\n                              
+                             "status":                                          
+                             "RESOURCE_EXHAUSTED",\n                            
+                             "details": [\n      {\n                            
+                             "@type":                                           
+                             "type.googleapis.com/google.rpc.                   
+                             Help",\n        "links": [\n                       
+                             {\n            "description":                      
+                             "Learn more about Gemini API                       
+                             quotas",\n            "url":                       
+                             "https://ai.google.dev/gemini-ap                   
+                             i/docs/rate-limits"\n                              
+                             }\n        ]\n      },\n                           
+                             {\n        "@type":                                
+                             "type.googleapis.com/google.rpc.                   
+                             QuotaFailure",\n                                   
+                             "violations": [\n          {\n                     
+                             "quotaMetric":                                     
+                             "generativelanguage.googleapis.c                   
+                             om/generate_content_free_tier_re                   
+                             quests",\n            "quotaId":                   
+                             "GenerateRequestsPerDayPerProjec                   
+                             tPerModel-FreeTier",\n                             
+                               "quotaDimensions": {\n                           
+                             "location": "global",\n                            
+                             "model": "gemini-3.7-flash"\n                      
+                             },\n            "quotaValue":                      
+                             "20"\n          }\n        ]\n                     
+                             },\n      {\n        "@type":                      
+                             "type.googleapis.com/google.rpc.                   
+                             RetryInfo",\n                                      
+                             "retryDelay": "31s"\n      }\n                     
+                             ]\n  }\n}\n (reset after 1m                        
+                             4s)'}}.                                            
+[09/14/26 06:04:00] WARNING  WARNING:babeldoc.translator.tran before_sleep.py:64
+                             slator:Retrying                                    
+                             babeldoc.translator.translator.O                   
+                             penAITranslator.do_llm_translate                   
+                              in 15 seconds as it raised                        
+                             RateLimitError: Error code: 429                    
+                             - {'error': {'message':                            
+                             '[gemini/gemini-3.7-flash]                         
+                             [429]: {\n  "error": {\n                           
+                             "code": 429,\n    "message":                       
+                             "You exceeded your current                         
+                             quota, please check (reset after                   
+                             32s)'}}.                                           
